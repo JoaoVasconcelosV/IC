@@ -17,6 +17,7 @@
 - **Rode a aplicação**:
 
 ```sh
+  $ cd IC
   # Server
   $ cd server-ic
   $ yarn install # Instalando as dependências do projeto.
