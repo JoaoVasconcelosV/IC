@@ -6,7 +6,7 @@
 
 ## :rocket: Como iniciar
 
-- **Pré Requisitos**: É necessário ter **Git**, **NodeJs**, um gerenciador de pacote(**NPM** ou **Yarn**)
+- **Pré Requisitos**: É necessário ter **Git**, **NodeJs**, um gerenciador de pacote(**NPM** ou **Yarn**) e o **MongoDB**
 
 - **Clone o repositório**:
 
