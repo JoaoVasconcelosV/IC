@@ -1,3 +1,5 @@
+![Alt Text](./intuitiveCareResultado.gif)
+
 ## :wrench: Tecnologias
 
 - [VueJs](https://vuejs.org/)
