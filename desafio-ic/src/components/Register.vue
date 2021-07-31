@@ -32,7 +32,7 @@
         <input v-model="register.cargoRepresentante" type="text" placeholder="Cargo Representante">      
       </div>  
       <div>
-        <button class="button-register" style="background-color: red; color: white" @click="deleteRegister(registerId)" v-if="registerId">Remover</button>
+        <button id="delete-button" class="button-register" @click="deleteRegister(registerId)" v-if="registerId">Remover</button>
         <button class="button-register" @click="newRegister()">Salvar</button>        
       </div> 
     </div>           
@@ -157,6 +157,15 @@ export default {
 input {
   height: 45px;
   font-size: 20px;
+}
+
+#delete-button {
+  background-color: red; 
+  color: white;
+}
+
+#delete-button:hover {
+  background-color: rgb(126, 1, 1);
 }
 
 .button-register {
